@@ -2,33 +2,28 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Accessible Portfolio</title>
-    <link rel="stylesheet" href="style.css">
+    <title>My Accessible Portfolio</title>
+    <link rel="stylesheet" href="styles.css">
 </head>
 <body>
-    <h1 role="heading" aria-level="1">Welcome to My Portfolio</h1>
-
-    <nav role="navigation" aria-label="Main navigation">
-        <ul role="list">
-            <li role="listitem"><a href="#about">About</a></li>
+    <h1 role="heading">Welcome to My Portfolio</h1>
+    
+    <nav role="navigation">
+        <ul>
+            <li role="listitem"><a href="#about">About Me</a></li>
             <li role="listitem"><a href="#projects">Projects</a></li>
             <li role="listitem"><a href="#contact">Contact</a></li>
         </ul>
     </nav>
-
-    <main>
-        <img role="img" src="https://via.placeholder.com/300" alt="Professional headshot of portfolio owner" aria-label="Profile picture">
-
-        <p>Hi! I'm a web developer passionate about creating accessible and user-friendly websites. I specialize in frontend development and accessibility implementation.</p>
-
-        <h2>My Skills</h2>
-        <ul role="list">
-            <li role="listitem">HTML5 & Accessibility Standards</li>
-            <li role="listitem">CSS3 & Responsive Design</li>
-            <li role="listitem">JavaScript & Modern Frameworks</li>
-            <li role="listitem">ARIA Implementation</li>
-        </ul>
-    </main>
+    
+    <img src="profile.jpg" alt="A picture of me" role="img">
+    
+    <p>This is a brief description of my portfolio and what I do.</p>
+    
+    <ul role="list">
+        <li role="listitem">Project 1: Description</li>
+        <li role="listitem">Project 2: Description</li>
+        <li role="listitem">Project 3: Description</li>
+    </ul>
 </body>
 </html>
